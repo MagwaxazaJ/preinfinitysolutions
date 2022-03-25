@@ -1,0 +1,30 @@
+.topbar{
+    color: #4895ef;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.topbar-Infor{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 15px;
+    align-items: center;
+
+}
+
+.topIcons{
+    color: #159be4;
+}
+
+@media screen and (max-width: 469px) {
+    .topbar{
+        width: 100%;
+    }
+    .topbar-Infor svg{
+        font-size: 1.1rem;
+    }
+    .topBar-parag{
+        font-size: 7px;
+    }
+  }

@@ -1,0 +1,96 @@
+
+.contact__container{
+    background-image: url('../../images/mappreview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.contact__form{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 65%;
+    height: 890px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.contact__form h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.contact__form__infor{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 812px;
+    margin: auto;
+    padding-top: 20px;
+    color: white;
+    text-align: left;
+}
+
+.contact__details{
+    width: 100%;
+}
+
+.contact__details p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.contact__inputs{
+    width: 100%;
+}
+
+.contact__inputs h3{
+    margin-bottom: 15px;
+}
+
+.contact__inputs input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact__inputs textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.contact__inputs button{
+    float: right;
+    width: 120px;
+    height: 37px;
+    color: white;
+    background-color: #159be4;
+    border: none;
+}
+
+@media screen and (max-width: 469px) {
+    .contact__form{
+        width: 95%;
+    }
+    .contact__form h2{
+        font-size: 25px;
+    }
+    .contact__form__infor{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .contact__details h3{
+        font-size: 15px;
+    }
+    .contact__details p{
+        font-size: 8px;
+    }
+    .contact__inputs iframe{
+        width: 95%;
+        margin: auto;
+    }
+}
