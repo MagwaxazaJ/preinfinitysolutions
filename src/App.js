@@ -75,6 +75,7 @@ function App() {
     <Navbar changeTheme={changeTheme} currentTheme={theme} />
      <Routes>
           <Route path='/' element={<FirstPage />} />
+          <Route path='/preinfinitysolutions' element={<FirstPage />} />
           <Route path='/products' element={<ProductsPage />} />
           <Route path='/services' element={<ServicesPage />} />
           <Route path='/about' element={<AboutPage />} />
